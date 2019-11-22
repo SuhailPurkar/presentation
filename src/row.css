@@ -1,0 +1,15 @@
+.rowContainer {
+  /* grid-gap: "3px" */
+  
+}
+.rowContainer > * {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width:100%; */
+  /* margin: auto; */
+}
+
+/* html, body {
+    height: 100%;
+} */

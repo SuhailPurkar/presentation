@@ -1,0 +1,67 @@
+.banner-container,
+.banner-container-item,
+.banner-order {}
+
+.banner-container,
+.banner-container-item,
+.banner-order {}
+
+.banner-container,
+.banner-container-item {}
+
+.banner-container,
+.banner-order {}
+
+$smooth-transition: all .5s ease-out;
+
+.banner-container-item,
+.banner-order {
+	position: absolute;
+	bottom: 10px;
+	margin-left: 2vw;
+}
+
+.banner-container {
+	text-align: center;
+	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("https://i.imgur.com/UCV2Tcl.png");
+	transition: $smooth-transition;
+	&:hover{
+		transition: $smooth-transition;
+		background-image: url("https://i.imgur.com/PfWnjGA.png");
+	}
+}
+
+.banner-container-item {
+	font-family: "minion-pro";
+	margin-bottom: 15vh;
+	font-size: 5rem;
+	letter-spacing: -0.015em;
+}
+
+.banner-order {
+	margin-bottom: 5vh;
+	text-transform: uppercase;
+	font-size: 0.75vw;
+	font-weight: 700;
+	letter-spacing: 0.20em;
+	color: #ee735c;
+	font-family: "neuzeit-grotesk";
+	border-style: solid;
+	border-color: #ee735c;
+	background: linear-gradient(to right, #ee735c 50%, transparent 50%);
+	padding: 1vw;
+	display: block;
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	&:hover {
+		background-position: left bottom;
+		color: white;
+		transition: all .5s ease-out;
+	}
+}
